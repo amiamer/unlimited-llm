@@ -1,0 +1,119 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Sensitive files
+*.pem
+*.key
+*.cert
+service-account-key.json
+*-key.json
+client_secret_*.json
+gmail-token.json
+
+# Ngrok configuration (contains authtoken)
+ngrok.yml
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kiro
+.kiro/vault-compiled.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary folders
+tmp/
+temp/
+
+# Voice models (large binary files - download separately)
+models/kokoro/*.onnx
+models/kokoro/*.json
+models/whisper-base/
+models/snakers4_silero-vad_master/
+
+# Discord scheduler data (contains user IDs and messages)
+data/
+
+# Health data exports (large, personal)
+HealthAutoExport*.zip
+HealthData/
+# Reference repos (cloned to study, not part of this project)
+odysseus/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Personal overview deck (inferred-personal notes; keep local)
+*.pptx
+scripts/build-overview-deck.py
+
+# Loose API key / secret text files
+glm api key.txt
+*api*key*.txt
+discord*.txt
+*secret*.txt
+*token*.txt
+
+# Local design prototypes (throwaway HTML mockups)
+prototypes/
+
+# One-time local recovery artifacts (personal data)
+recovered-*.txt
+public/restore-*.js
+public/restore-*.html
+public/check-annotations.js
+
+# Annotation file store fallback dir (personal data; real store lives outside the repo)
+data/annotations/
+__pycache__/
+
+# Kiro IDE files (specs, steering, sessions) are personal working notes; they live in the vault, not in this repo
+.kiro/

@@ -1,0 +1,30 @@
+# Don't deploy these to Vercel
+models/
+*.onnx
+*.safetensors
+*.jit
+*.pth
+*.bin
+
+# Test files
+**/__tests__/
+*.test.ts
+*.test.tsx
+*.property.test.ts
+*.property.test.tsx
+*.error.test.ts
+*.integration.test.ts
+vitest.config.ts
+
+# Documentation
+docs/
+GOOGLE_CALENDAR_QUICK_START.md
+.kiro/
+
+# Scripts
+scripts/
+test-upload.html
+
+# Development files
+.vscode/
+.idea/

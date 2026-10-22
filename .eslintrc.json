@@ -1,0 +1,4 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "ignorePatterns": ["**/__tests__/**", "**/*.test.ts", "**/*.test.tsx", "**/*.property.test.ts", "**/*.property.test.tsx", "**/*.error.test.ts", "**/*.integration.test.ts"]
+}
